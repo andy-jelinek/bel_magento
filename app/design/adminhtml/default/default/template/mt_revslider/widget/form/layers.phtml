@@ -1,0 +1,18 @@
+<tr>
+    <td class="label"><?php echo $this->getElement()->getLabel() ?></td>
+    <td style="width:100%;padding-left:5px">
+        <div>
+            <?php echo $this->getChildHtml('addLayerBtn') ?>
+            <?php echo $this->getChildHtml('addLayerImageBtn') ?>
+            <?php echo $this->getChildHtml('addLayerVideoBtn') ?>
+            <?php echo $this->getChildHtml('deleteLayerBtn') ?>
+            <?php echo $this->getChildHtml('deleteAllLayersBtn') ?>
+            <?php echo $this->getChildHtml('dupLayerBtn') ?>
+            <?php //echo $this->getChildHtml('previewLayerBtn') ?>
+            <?php echo $this->getChildHtml('editLayerBtn') ?>
+            <input type="hidden" id="addLayerImageUrl" value="<?php echo $this->getAddLayerImageUrl()?>"/>
+            <input type="hidden" id="addLayerVideoUrl" value="<?php echo $this->getAddLayerVideoUrl()?>"/>
+        </div>
+        <div id="divLayers" class="slide_layers" style="<?php echo $this->getDivLayersStyle() ?>"></div>
+    </td>
+</tr>

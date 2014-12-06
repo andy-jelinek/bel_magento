@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category    MT
+* @package     MT_Widget
+* @copyright   Copyright (C) 2008-2013 YesTheme.com. All Rights Reserved.
+* @license     GNU General Public License version 2 or later
+* @author      YesTheme.com
+* @email       support@yestheme.com
+*/
+-->
+<config>
+    <modules>
+        <MT_Widget>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <MT_Extensions />
+            </depends>
+        </MT_Widget>
+    </modules>
+</config>

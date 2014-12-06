@@ -1,0 +1,25 @@
+.mt_productscroller{
+    margin-top: 30px;
+}
+.scroller-slider {
+    margin: 0 0 30px;
+    position: relative;
+}
+.mt-scroller-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.scroller-slider .slides {
+    zoom: 1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.scroller-slider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    text-align: center;
+}

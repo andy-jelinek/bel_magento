@@ -1,0 +1,22 @@
+<?php
+/**
+ *
+ * ------------------------------------------------------------------------------
+ * @category     MT
+ * @package      MT_Filter
+ * ------------------------------------------------------------------------------
+ * @copyright    Copyright (C) 2008-2013 YesTheme.com. All Rights Reserved.
+ * @license      GNU General Public License version 2 or later;
+ * @author       YesTheme.com
+ * @email        support@yestheme.com
+ * ------------------------------------------------------------------------------
+ *
+ */
+?>
+<?php
+echo Mage::helper('core')->jsonEncode(
+    array(
+        'main' => $this->getChildHtml('content'),
+        'sidebar' => $this->getChildHtml('left')
+    )
+);

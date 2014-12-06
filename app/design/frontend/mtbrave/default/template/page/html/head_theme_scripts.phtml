@@ -1,0 +1,12 @@
+<?php 
+$isResponsive = Mage::helper('mtbrave')->getThemeLayoutCfg('responsive/responsive');
+?>
+<script type="text/javascript">
+    var magenThemes = {};
+    magenThemes.responsive = <?php echo ($isResponsive ? 'true' : 'false'); ?>;
+    <?php if($isResponsive):?>
+    magenThemes.maxBreak = 1170;
+    <?php else:?>
+    magenThemes.maxBreak = 970;
+    <?php endif;?>
+</script>

@@ -1,0 +1,132 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<section class="mt-container">
+    <?php echo $this->getChildHtml('mtsidebar') ?>
+    <section class="mt-wrapper">
+        <?php echo $this->getChildHtml('after_body_start') ?>
+        <?php echo $this->getChildHtml('header') ?>
+        <?php echo $this->getChildHtml('global_notices') ?>
+        <section class="preface-container">
+            <?php
+            $prefaceClass = "";
+            $prefaceLeftClass = "";
+            $prefaceRightClass = "";
+            if ($this->getChildHtml('preface-left') && $this->getChildHtml('preface-right')) {
+                $prefaceLeftClass = " col-lg-3 col-sm-3 col-md-3 hidden-xs";
+                $prefaceClass = " col-lg-6 col-sm-6 col-md-6 col-xs-12";
+                $prefaceRightClass = " col-lg-3 col-sm-3 col-md-3 hidden-xs";
+            } elseif ($this->getChildHtml('preface-left')) {
+                $prefaceLeftClass = " col-lg-3 col-sm-3 col-md-3 hidden-xs";
+                $prefaceClass = " col-lg-9 col-sm-9 col-md-9 col-xs-12";
+            } elseif ($this->getChildHtml('preface-right')) {
+                $prefaceClass = " col-lg-9 col-sm-9 col-md-9 col-xs-12";
+                $prefaceRightClass = " col-lg-3 col-sm-3 col-md-3 hidden-xs";
+
+            }
+            ?>
+            <div class="container">
+                <div class="row show-grid">
+                    <?php if ($this->getChildHtml('preface-left')): ?>
+                        <div class="mt-preface-left <?php echo $prefaceLeftClass; ?>"><?php echo $this->getChildHtml('preface-left'); ?></div>
+                    <?php endif; ?>
+                    <div class="mt-preface<?php echo $prefaceClass; ?>"><?php echo $this->getChildHtml('preface'); ?></div>
+                    <?php if ($this->getChildHtml('preface-right')): ?>
+                        <div class="mt-preface-right <?php echo $prefaceRightClass; ?>"><?php echo $this->getChildHtml('preface-right'); ?></div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </section>
+        <section class="main-container col3-layout">
+            <div class="container">
+                <div class="main">
+                    <div class="row show-grid">
+                        <div class="col-lg-12">
+                            <?php echo $this->getChildHtml('breadcrumbs') ?>
+                        </div>
+                    </div>
+                    <div class="row show-grid">
+                        <div class="col-lg-12">
+                            <div class="main-top">
+                                <?php echo $this->getChildHtml('main_top') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row show-grid">
+                        <div class="col-lg-3 col-sm-3 col-md-3 hidden-xs">
+                            <div class="col-left sidebar">
+                                <?php echo $this->getChildHtml('left_top') ?>
+                                <?php echo $this->getChildHtml('left') ?>
+                                <?php echo $this->getChildHtml('left_bottom') ?>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-wrapper">
+                                <div class="col-main">
+                                    <?php echo $this->getChildHtml('global_messages') ?>
+                                    <?php echo $this->getChildHtml('content') ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 hidden-xs">
+                            <div class="col-right sidebar">
+                                <?php echo $this->getChildHtml('right_top') ?>
+                                <?php echo $this->getChildHtml('right') ?>
+                                <?php echo $this->getChildHtml('right_bottom') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row main-bottom show-grid">
+                        <div class="col-lg-12">
+                            <?php echo $this->getChildHtml('main_bottom') ?>
+                        </div>
+                    </div>
+                    <div class="row show-grid">
+                        <div class="col-lg-12">
+                            <div class="mt-postscript"><?php echo $this->getChildHtml('postscript') ?></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+        <?php echo $this->getAbsoluteFooter() ?>
+    </section>
+</section>
+</body>
+</html>

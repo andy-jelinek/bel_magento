@@ -1,0 +1,286 @@
+<root><blocks><cms_block><title>Footer Links</title><identifier>footer_links</identifier><content><![CDATA[<ul>
+<li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+<li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>My account</title><identifier>my_account</identifier><content><![CDATA[<div class="my-account">
+<h3 class="footer-static-title">My account</h3>
+<div class="footer-static-content">
+<ul>
+<li><a href="#">Shipping &amp; Returns</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">My account</a></li>
+<li><a href="#">Site map</a></li>
+<li><a href="#">Privacy Policy</a></li>
+</ul>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Footer Bottom 2</title><identifier>mt-footer-bottom-2</identifier><content><![CDATA[<div class="information">
+<h3 class="footer-static-title">Information<span class="icon-footer visible-xs">icon-footer</span></h3>
+<div class="footer-static-content">
+<ul>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Delivery Information</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Manufacturers</a></li>
+</ul>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Custom</title><identifier>custom_menu</identifier><content><![CDATA[<div class="row show-grid">
+<div class="item-custom col-lg-3 col-md-3 col-sm-3"><img src="{{media url="wysiwyg/custom1.png"}}" alt="" />
+<h3><a href="#">Iphone 5s Comming Soon</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+</div>
+<div class="item-custom col-lg-3 col-md-3 col-sm-3"><img src="{{media url="wysiwyg/custom2.png"}}" alt="" />
+<h3><a href="#">HTC One</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+</div>
+<div class="item-custom col-lg-3 col-md-3 col-sm-3"><img src="{{media url="wysiwyg/custom3.png"}}" alt="" />
+<h3><a href="#">New Product Nokia</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+</div>
+<div class="item-custom col-lg-3 col-md-3 col-sm-3"><img src="{{media url="wysiwyg/custom4.png"}}" alt="" />
+<h3><a href="#">New Product HTC</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Apple</title><identifier>apple</identifier><content><![CDATA[<div class="static-menu"><a href="#"><img src="{{media url="wysiwyg/category-sub.png"}}" alt="" /></a>
+<h3>Consectetur adipiscing elit</h3>
+<p>Nullam vulputate euismod urna non pharetra, <span>cras et ligula libero.</span></p>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Home scroller</title><identifier>home-scroller</identifier><content><![CDATA[<div class="scroll-box">
+<div class="gr-box">
+<div class="mainhome-top-item large lightskyblue">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-1.jpg" alt="item top" /></div>
+<div class="item-info">
+<h3 class="item-name">HTC One</h3>
+<p class="item-des">Nunc euismod, arcu in ornare congue, metus nulla cursus arcu, at dignissim nulla odio eu leo. Nam suscipit tempus sollicitudin. Vivamus tellus purus, molestie eget accumsan a, vestibulum et tellus. Vivamus ut neque orci, gravida varius nulla. Morbi vehicula; odio ac iaculis sagittis, purus justo iaculis urna, sit amet rutrum orci tellus vitae nulla.</p>
+</div>
+</div>
+<div class="mainhome-top-item half midnightblue">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-5.jpg" alt="item top" /></div>
+<div class="item-info">
+<h3 class="item-name">SamSung Galaxy SII</h3>
+<p class="item-des">Cras nisl lorem, luctus condimentum adipiscing sit amet, interdum eu justo. In vitae blandit sapien! In ultricies consequat nulla. Fusce egestas metus nec libero commodo ullamcorper. Phasellus at ullamcorper risus. Donec placerat quam ac eros adipiscing molestie.</p>
+</div>
+</div>
+<div class="mainhome-top-item half purple">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-2.jpg" alt="item bottom" /></div>
+<div class="item-info">
+<h3 class="item-name">HTC New</h3>
+<p class="item-des">Nullam laoreet sapien eget nisi consequat ac aliquet sapien laoreet. Nam facilisis auctor mi, in blandit urna vestibulum vitae. Maecenas suscipit, orci tempor egestas accumsan, augue dolor porta eros, ac fringilla neque libero non orci. Sed metus enim, vestibulum ut malesuada.</p>
+</div>
+</div>
+</div>
+<div class="gr-box">
+<div class="mainhome-top-item half indianred">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-7.jpg" alt="item top" /></div>
+<div class="item-info">
+<h3 class="item-name">Keyboard Tablet</h3>
+<p class="item-des">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut risus lorem, tincidunt a elementum non, pellentesque quis metus. Duis mollis tincidunt facilisis. Proin at nisl tortor. Sed fermentum viverra tortor</p>
+</div>
+</div>
+<div class="mainhome-top-item half seagreen">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-9.jpg" alt="item bottom" /></div>
+<div class="item-info">
+<h3 class="item-name">Nokia Lumina 9200</h3>
+<p class="item-des">Etiam non sem at justo varius mattis vel vel mauris. Nunc malesuada ligula sed risus venenatis luctus. Aliquam viverra urna quis augue tincidunt sit amet rutrum risus egestas.</p>
+</div>
+</div>
+<div class="mainhome-top-item large mediumaquamarine">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-4.jpg" alt="item bottom" /></div>
+<div class="item-info">
+<h3 class="item-name">Macbook Pro 2012</h3>
+<p class="item-des">Mauris commodo lacus ac lectus congue elementum. Integer eros neque, molestie ac sodales at, cursus sed elit. In at ornare orci. Integer suscipit elementum purus, adipiscing interdum ante ultricies id. Sed viverra eros suscipit lectus ultricies in scelerisque lorem iaculis.</p>
+</div>
+</div>
+</div>
+<div class="gr-box">
+<div class="mainhome-top-item large yellow">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-3.jpg" alt="item top" /></div>
+<div class="item-info">
+<h3 class="item-name">The New Ipad</h3>
+<p class="item-des">Duis mollis tincidunt facilisis. Proin at nisl tortor. Sed fermentum viverra tortor, at ornare elit ornare feugiat. Vivamus iaculis est non mauris cursus in gravida ipsum porttitor. Ut tempus pharetra lectus, in facilisis augue consectetur non. Nulla at ante urna, non vehicula sapien.</p>
+</div>
+</div>
+<div class="mainhome-top-item half lightpurple">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-8.jpg" alt="item top" /></div>
+<div class="item-info">
+<h3 class="item-name">Ipad Mini</h3>
+<p class="item-des">Aliquam viverra urna quis augue tincidunt sit amet rutrum risus egestas. Mauris commodo lacus ac lectus congue elementum. Integer eros neque, molestie ac sodales at, cursus sed elit. In at ornare orci. Integer suscipit elementum purus, adipiscing interdum ante ultricies id. Sed viverra eros suscipit.</p>
+</div>
+</div>
+<div class="mainhome-top-item half green">
+<div class="item-image"><img src="{baseurl}media/wysiwyg/item-6.jpg" alt="item bottom" /></div>
+<div class="item-info">
+<h3 class="item-name">SamSung Galaxy SIII</h3>
+<p class="item-des">Donec enim est; venenatis non dignissim sed; auctor eget urna. Phasellus eget mi a augue mollis pretium ut eu libero. Nam sem lectus, rutrum vehicula blandit sit amet, porttitor nec justo. Integer at odio eget nisi vehicula pharetra! Aenean ullamcorper</p>
+</div>
+</div>
+</div>
+</div>
+<p>{{block type="productsscroller/products" show_items="5" product_count="12" init_delay="600" is_responsive="1" is_mode="latest" category_id="4" block_title="Product Brands" template="magenthemes/productsscroller/productsscroller.phtml"}}</p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Right 1</title><identifier>mt-right-1</identifier><content><![CDATA[<div class="right-static">
+<div class="shipping-sale">
+<div class="sale"><a href="#"><img src="{{media url="wysiwyg/sale.png"}}" alt="sale" /></a></div>
+<!--<div class="shipping"><a href="#"><img src="{{media url="wysiwyg/shipping.png"}}" alt="shipping" /></a></div>-->
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Footer Bottom 1</title><identifier>mt-footer-bottom-1</identifier><content><![CDATA[<div class="my-account">
+<h3 class="footer-static-title">My account<span class="icon-footer visible-xs">icon-footer</span></h3>
+<div class="footer-static-content">
+<ul>
+<li><a href="#">Shipping &amp; Returns</a></li>
+<li><a href="#">Secure Shopping</a></li>
+<li><a href="#">My account</a></li>
+<li><a href="#">Site map</a></li>
+<li><a href="#">Privacy Policy</a></li>
+</ul>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Footer Bottom 4</title><identifier>mt-footer-bottom-4</identifier><content><![CDATA[<div class="get-in-touch">
+<h3 class="footer-static-title">Get in Touch<span class="icon-footer visible-xs">icon-footer</span></h3>
+<div class="footer-static-content">
+<p><span>Location</span><br />1268 - Street Name, Tower Name, United State</p>
+<p><span>Head Phone</span><br />+001. 666. 868. 12</p>
+<p><span>mail us</span><br /><a href="#">yourname@yourdomain.com</a></p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Footer social</title><identifier>social_footer</identifier><content><![CDATA[<div class="footer-social-static">
+<ul>
+<li class="twitter"><a href="#">twitter</a></li>
+<li class="facebook"><a href="#">facebook</a></li>
+<li class="youtube"><a href="#">youtube</a></li>
+<li class="email"><a href="#">email</a></li>
+<li class="printer"><a href="#">printer</a></li>
+</ul>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Static</title><identifier>banner_static</identifier><content><![CDATA[<div class="banner-static"><img src="{{media url="wysiwyg/banner-static.png"}}" alt="" /></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Logo Scroller</title><identifier>block_brand_footer</identifier><content><![CDATA[<p>{{widget type="brands/widget_brands" widget_title="Brands111" template="magenthemes/brands/widget_brands.phtml" all_brands="1" show_items="4" loop="1"}}</p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Footer Bottom 3</title><identifier>mt-footer-bottom-3</identifier><content><![CDATA[{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Product Sidebar</title><identifier>block_product_slidebar_right</identifier><content><![CDATA[<div class="block block-product-page">
+    <div class="block-title">
+        <strong>
+            <span>Special Product</span>
+        </strong>
+    </div>
+    <div class="block-content">
+       <h3>Looking for the best Product?</h3>
+       <img src="{{media url="wysiwyg/img-product-banner-page2.png"}}" alt="" />
+       <img class="img-hover" src="{{media url="wysiwyg/img-product-banner-page1.png"}}" alt="" />
+       <a href="#" class="more">More info...</a>
+    </div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Left 1</title><identifier>mt-left-1</identifier><content><![CDATA[<div class="block block-left-demo">
+<div class="block-title"><strong class="no-padding-l"> <span>Special Product</span> </strong></div>
+<div class="block-content no-padding-l">
+<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Left 3</title><identifier>mt-left-3</identifier><content><![CDATA[<div class="block block-product-page">
+<div class="block-title"><strong> <span>Special Product</span> </strong></div>
+<div class="block-content">
+<h3>Looking for the best Product?</h3>
+<img src="{{media url="wysiwyg/img-product-banner-page2.png"}}" alt="" /> <img class="img-hover" src="{{media url="wysiwyg/img-product-banner-page1.png"}}" alt="" /> <a class="more" href="#">More info...</a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Right 2</title><identifier>mt-right-2</identifier><content><![CDATA[<div class="right-static">
+<div class="social-media">
+<div class="social-title">
+<h3><span>Social Media</span></h3>
+</div>
+<div class="social-content">
+<ul>
+<li class="facebook"><a href="#"><img src="{{media url="wysiwyg/facebook.png"}}" alt="facebook" /></a></li>
+<li class="youtube"><a href="#"><img src="{{media url="wysiwyg/youtube.png"}}" alt="youtube" /></a></li>
+<li class="pinterest"><a href="#"><img src="{{media url="wysiwyg/pinterest.png"}}" alt="pinterest" /></a></li>
+<li class="twitter"><a href="#"><img src="{{media url="wysiwyg/twitter.png"}}" alt="twitter" /></a></li>
+</ul>
+</div>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Right 3</title><identifier>mt-right-3</identifier><content><![CDATA[<div class="right-static">
+<div class="right-banner"><a href="#"><img src="{{media url="wysiwyg/right-banner.png"}}" alt="Banner" /></a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Left 2</title><identifier>mt-left-2</identifier><content><![CDATA[<div class="block block-left-demo">
+<div class="block-title"><strong class="no-padding-l"> <span>Demo Left Content</span> </strong></div>
+<div class="block-content no-padding-l">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Static Watch</title><identifier>banner_static_watch</identifier><content><![CDATA[<div class="banner-static"><img src="{{media url="wysiwyg/banner-static-watch.png"}}" alt="" /></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Custom</title><identifier>custom_menu_watch</identifier><content><![CDATA[<div class="row show-grid">
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_watch_1.png"}}" alt="" />
+<h3><a href="#">Why you should buy a watch</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_watch_2.png"}}" alt="" />
+<h3><a href="#">Diving Watches - SAVE UP TO 15%</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_watch_3.png"}}" alt="" />
+<h3><a href="#">Emporio Armani AR5875</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Custom</title><identifier>custom_menu_fashion</identifier><content><![CDATA[<div class="row show-grid">
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_fashion_1.png"}}" alt="" />
+<h3><a href="#">Matthew Williamson</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_fashion_2.png"}}" alt="" />
+<h3><a href="#">Mustafa Soydan Fashion</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_fashion_3.png"}}" alt="" />
+<h3><a href="#">Fashion Photographer</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Custom</title><identifier>custom_menu_sport</identifier><content><![CDATA[<div class="row show-grid">
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_sport_1.png"}}" alt="" />
+<h3><a href="#">Wilson Sporting Goods</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_sport_2.png"}}" alt="" />
+<h3><a href="#">Sport Products</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+<div class="item-custom col-lg-4 col-md-4 col-sm-4"><img src="{{media url="wysiwyg/custom_sport_3.png"}}" alt="" />
+<h3><a href="#">Performance SPORT</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top 4</title><identifier>mt-top-4</identifier><content><![CDATA[<div class="main_top">
+<div class="static-item box box-icon bg-red"><span class="icon icon-company">icon</span> <a href="#">About Company</a></div>
+<div class="static-item box box-image"><img src="{{media url="wysiwyg/block-maintop-4.png"}}" alt="" /></div>
+<div class="static-item box box-icon bg-blue"><span class="icon icon-support">icon</span> <a href="#">Dedicated Support</a></div>
+<div class="static-item box box-image"><img src="{{media url="wysiwyg/block-maintop-5.png"}}" alt="" /></div>
+<div class="static-item box box-image"><img src="{{media url="wysiwyg/block-maintop-6.png"}}" alt="" /></div>
+<div class="static-item box box-icon bg-violet"><span class="icon icon-delivery">icon</span> <a href="#">Fast Delivery</a></div>
+<div class="static-item box box-image"><img src="{{media url="wysiwyg/block-maintop-7.png"}}" alt="" /></div>
+<div class="static-item box box-icon bg-green"><span class="icon icon-service">icon</span> <a href="#">Customer Service</a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Left 3 Fashion</title><identifier>mt-left-3-fashion</identifier><content><![CDATA[<div class="block block-product-page">
+<div class="block-title"><strong> <span>New Fashion Collection</span> </strong></div>
+<div class="block-content">
+<h3>Looking for the best Product?</h3>
+<img src="{{media url="wysiwyg/block-left-fashion.jpg"}}" alt="" /> <a class="more" href="#">More info...</a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Left 3 Sport</title><identifier>mt-left-3-sport</identifier><content><![CDATA[<div class="block block-product-page">
+<div>
+<h3>Looking for the best Product?</h3>
+<img src="{{media url="wysiwyg/block-left-sport.jpg"}}" alt="" /> <a class="more" href="#">More info...</a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Home Right 3 Sport</title><identifier>mt-right-3-sport</identifier><content><![CDATA[<div class="right-static">
+<div class="right-banner"><a href="#"><img src="{{media url="wysiwyg/bock-right-sport.jpg"}}" alt="" /></a></div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Sport 3</title><identifier>mt-top-sport-3</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-maintop-sport-1.png"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">Cricket ball</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Sport 2</title><identifier>mt-top-sport-2</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-maintop-sport-2.png"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">cycling distance</a></h3>
+<p>It is a long established fact that a reader will be distracted by</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Sport 1</title><identifier>mt-top-sport-1</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-maintop-sport-3.png"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">Women Tennis</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing setting industry</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>About</title><identifier>about</identifier><content><![CDATA[<p><span>This Is Test Overwrite Try to use these on a limited basis and avoid creating entirely different versions of the same site. Instead, use them to complement each device's presentation.&nbsp;</span><strong>Responsive utilities are currently only available for block and table toggling.</strong><span>&nbsp;Use with inline and table elements is currently not supported.</span></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-1</title><identifier>mt-footer-top-1</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-footer-top-1</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-right-4</title><identifier>mt-right-4</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-right-4</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-right-5</title><identifier>mt-right-5</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-right-5</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-left-4</title><identifier>mt-left-4</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-left-4</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-left-5</title><identifier>mt-left-5</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-left-5</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-3</title><identifier>mt-footer-top-3</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; min-height: 50px; text-align: center;"><strong>mt-footer-top-3</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-4</title><identifier>mt-footer-top-4</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; min-height: 50px; text-align: center;"><strong>mt-footer-top-4</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-5</title><identifier>mt-footer-top-5</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; min-height: 50px; text-align: center;"><strong>mt-footer-top-5</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-6</title><identifier>mt-footer-top-6</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; min-height: 50px; text-align: center;"><strong>mt-footer-top-6</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-top-2</title><identifier>mt-footer-top-2</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; width: 100%; min-height: 50px; text-align: center;"><strong>mt-footer-top-2</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>mt-footer-bottom-5</title><identifier>mt-footer-bottom-5</identifier><content><![CDATA[<div style="border: #dfdfdf solid 1px; min-height: 50px; text-align: center;"><strong>mt-footer-bottom-5</strong></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Watch 1</title><identifier>mt-top-watch-1</identifier><content><![CDATA[<div class="static-top-item al-center"><img src="{{media url="wysiwyg/block-maintop-8.png"}}" alt="" /></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Watch 2</title><identifier>mt-top-watch-2</identifier><content><![CDATA[<div class="static-top-item al-center"><img src="{{media url="wysiwyg/block-maintop-9.png"}}" alt="" /></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Watch 3</title><identifier>mt-top-watch-3</identifier><content><![CDATA[<div class="static-top-item al-center"><img src="{{media url="wysiwyg/block-maintop-10.png"}}" alt="" /></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>MTBlock Top Sport 4</title><identifier>mt-top-sport-4</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-maintop-sport-4.png"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">running fitness</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Bottom Sport 1</title><identifier>mt-bottom-sport-1</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-mainbottom-sport1.jpg"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">Rugby</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing setting industry</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Bottom Sport 2</title><identifier>mt-bottom-sport-2</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-mainbottom-sport2.jpg"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">Fitness room</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing setting industry</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Bottom Sport 3</title><identifier>mt-bottom-sport-3</identifier><content><![CDATA[<div class="static-top-item al-center"><a href="#"><img src="{{media url="wysiwyg/block-mainbottom-sport3.jpg"}}" alt="" /></a>
+<div class="item-info">
+<h3><a href="#">basketball</a></h3>
+<p>Lorem Ipsum is simply dummy text of the printing setting industry</p>
+</div>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Top Fashion 1</title><identifier>mt-top-fashion-1</identifier><content><![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/block-maintop-fashion-1.png"}}" alt="" /></a></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Top Fashion 2</title><identifier>mt-top-fashion-2</identifier><content><![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/block-maintop-fashion-2.png"}}" alt="" /></a></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Scoller Fashion</title><identifier>banner_scoller_fashion</identifier><content><![CDATA[<img src="{{media url="wysiwyg/banner_scoller_fashion1.jpg"}}" alt="" />]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Scoller Fashion 2</title><identifier>banner_scoller_fashion_2</identifier><content><![CDATA[<img src="{{media url="wysiwyg/banner_scoller_fashion2.jpg"}}" alt="" />]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Bottom Fashion 1</title><identifier>mt-bottom-fashion-1</identifier><content><![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/block-mainbottom-fashion1.jpg"}}" alt="" /></a></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Block Main Bottom Fashion 2</title><identifier>mt-bottom-fashion-2</identifier><content><![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/block-mainbottom-fashion2.jpg"}}" alt="" /></a></p>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Scoller Watch 1</title><identifier>banner_scoller_watch</identifier><content><![CDATA[<img src="{{media url="wysiwyg/banner_scoller_watch1.jpg"}}" alt="" />]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title>Banner Scoller Watch 2</title><identifier>banner_scoller_watch_2</identifier><content><![CDATA[<img src="{{media url="wysiwyg/banner_scoller_watch2.jpg"}}" alt="" />]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block></blocks></root>

@@ -1,0 +1,251 @@
+.mt-top-cart {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.mt-maincart {
+    position: relative;
+}
+.mt-cart-loading {
+    display: none;
+    position: absolute;
+    top: 8px;
+    left: 41px;
+}
+.search-form-border{
+    background: url("../../../../images/icon-ajax-cart.png") no-repeat 202px 0;
+    height: 7px;
+    position: absolute;
+    right: 0;
+    top: -7px;
+    width: 100%;
+    z-index: 9999;
+}
+.mt-cart, .mt-maincompare{
+    position: relative;
+}
+.mt-icon-ajaxcart, .mt-icon-compareajax {
+    width: 36px;
+    height: 32px;
+    display: block;
+    outline: none;
+    margin: 0 5px;
+    float: left;
+    text-indent: -999em;
+    padding: 0;
+    font-size: 0;
+}
+.mt-icon-ajaxcart{ background-position: -92px -269px }
+.mt-icon-compareajax{ background-position: -47px -269px }
+span.mt-cart-label {
+    float: left;
+    padding: 7px 0 0 6px;
+}
+.ajaxcart, .mtajaxcompare {
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    top: 32px;
+    z-index: 1000;
+    display: none;
+    overflow: inherit;
+}
+.mt-cart .mt-ajax-container {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: #dfdfdf solid 1px;
+}
+.mt-ajax-container {
+    background: #ffffff;
+    background-repeat: repeat;
+    background-position: 0 0;
+    padding: 5px;
+    margin: 0;
+    width: 277px;
+    overflow: hidden;
+}
+
+.mt-ajax-container p.no-items-in-cart {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.mt-ajax-container ul {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mt-ajax-container li.item {
+    float: left;
+    line-height: normal;
+    margin: 0;
+    outline: medium none;
+    padding: 0 0 8px 0;
+}
+.mt-ajax-container .product-image {
+    float: left;
+    border: 0;
+    padding: 0;
+    outline: none;
+    width: 62px;
+}
+.mt-ajax-container .product-image img {
+    width: 62px;
+    height: 60px;
+    border: #dfdfdf solid 1px;
+    padding: 1px;
+}
+.mt-ajax-container .product-details {
+    float: left;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 0;
+    position: relative;
+    width: 160px;
+}
+.mt-ajax-container .product-details p.product-name {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mt-ajax-container .product-details .items {
+    margin: 0;
+    padding: 0;
+}
+.mt-ajax-container .product-details .items span.price {
+    outline: none;
+    font-weight: normal;
+    padding-top: 5px;
+}
+.mt-ajax-container .product-details span.price {
+    display: block;
+}
+.mt-ajax-container .product-details .access {
+    margin: 0;
+    padding: 6px 0;
+}
+.mt-ajax-container .product-details a {
+    float: left;
+    font-size: 13px;
+    line-height: normal;
+    outline: medium none;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: uppercase;
+}
+.product-details .btn-edit {
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    outline: medium none;
+    text-transform: none;
+    width: auto;
+    font-size: 12px;
+    padding: 0 20px 0 0;
+    text-transform: none !important;
+}
+.btn-edit span.icon {
+    background-image: url("../images/btn-edit.png");
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    outline: none;
+    border-radius: 50%;
+    padding: 0;
+}
+.mt-ajax-container .btn-remove span.icon {
+    background-image: url("../images/btn-remove.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    width: 16px;
+    padding: 0;
+    height: 16px;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.mt-ajax-container .access a span.icon, .mt-ajax-container .product-details .btn-remove span.icon{
+    background-color: #cfcfcf;
+}
+.mt-ajax-container .product-details .btn-remove {
+    background-image: none;
+    background-color: transparent;
+    color: #585656;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    outline: medium none;
+    text-indent: inherit;
+    text-transform: none;
+    width: auto;
+    font-size: 97%;
+    float: left;
+}
+.mt-ajax-container p.subtotal {
+    background-color: #FFFFFF;
+    border: 1px solid #D0C6C2;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 0 8px;
+    text-align: right;
+    width: 100%;
+}
+.mt-ajax-container p.subtotal .label{
+    font-size: 100%;
+    color: inherit;
+}
+.mt-ajax-checkout {
+    margin: 0 0 0 0;
+    padding: 10px 0 5px;
+    text-align: right;
+    border: 0;
+}
+.mt-ajax-checkout a {
+    text-decoration: none;
+    margin: 0 0 0 8px;
+    padding: 6px 14px;
+    text-align: center;
+    font-size: 97%;
+    color: #fff;
+}
+.error_qty {
+    color: red;
+}
+/*alert*/
+div.message-alert {
+    background: none repeat scroll 0 0 #666;
+    border-radius: 0 0 3px 3px;
+    color: #dfdfdf;
+    font-size: 12px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -220px;
+    padding: 20px 60px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 333px;
+    z-index: 9999;
+    opacity: 0;
+}
+div.message-alert button {
+    background: url("../images/close.png") no-repeat scroll 0 0 transparent;
+    border: none;
+    height: 9px;
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    width: 9px;
+    z-index: 9999;
+}
+div.message-alert button:hover {
+    background-position: 0 -9px;
+    cursor: pointer;
+}

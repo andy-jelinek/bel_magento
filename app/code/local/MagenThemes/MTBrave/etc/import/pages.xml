@@ -1,0 +1,57 @@
+<root>
+    <pages>
+        <cms_block>
+            <title>Responsive magento themes MT Brave</title>
+            <identifier>home_default</identifier>
+            <layout>two_columns_right</layout>
+            <content><![CDATA[<!--aa-->]]></content>
+            <is_active>1</is_active>
+            <stores>
+                <item>0</item>
+            </stores>
+        </cms_block>
+        <cms_block>
+            <title>Responsive magento themes MT Brave With 2 column left </title>
+            <identifier>home_fashion</identifier>
+            <layout>two_columns_right</layout>
+            <content><![CDATA[<!---->]]></content>
+            <is_active>1</is_active>
+            <stores>
+                <item>0</item>
+            </stores>
+        </cms_block>
+        <cms_block>
+            <title>Responsive magento themes MT Brave With 3 column</title>
+            <identifier>home_sport</identifier>
+            <layout>two_columns_left</layout>
+            <content><![CDATA[<!--aa-->]]></content>
+            <is_active>1</is_active>
+            <stores>
+                <item>0</item>
+            </stores>
+        </cms_block>
+        <cms_block>
+            <title>Responsive magento themes MT Brave With 1 column</title>
+            <identifier>home_watch</identifier>
+            <layout>two_columns_right</layout>
+            <content><![CDATA[<!--aa-->]]></content>
+            <is_active>1</is_active>
+            <stores>
+                <item>0</item>
+            </stores>
+        </cms_block>
+        <cms_block>
+            <title>MagenTheme Page Testing</title>
+            <identifier>magentheme-page-testing</identifier>
+            <content>
+                <![CDATA[<div class="page-title">
+<h1>MagenTheme Page Testing</h1>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+            <stores>
+                <item>0</item>
+            </stores>
+        </cms_block>
+    </pages>
+</root>

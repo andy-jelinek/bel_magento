@@ -1,0 +1,311 @@
+/**
+* Magento
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE_AFL.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@magentocommerce.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade Magento to newer
+* versions in the future. If you wish to customize Magento for your
+* needs please refer to http://www.magentocommerce.com for more information.
+*
+* @category    design
+* @package     default_default
+* @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+* @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*/
+
+/* Desktops and laptops ----------- */
+@media (min-width: 1200px) {
+}
+
+/*Ipad landscape*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.mt_productslist .actions .addtocart, .category-products .actions .addtocart{ width:100%; margin-bottom: 10px }
+
+    .header .form-language .sbOptions a, .header .select-header .currency .sbOptions a{ padding-left: 15px }
+    .form-language .sbOptions li{ padding-left: 15px }
+
+    .header .form-language .sbHolder, .header .select-header .currency .sbHolder{
+        padding: 22px 28px 20px 15px;
+    }
+    .header .links li a{
+        width: 100px;
+        height: 130px;
+    }
+    .header .logo{
+        max-width: 100%;
+    }
+    #mtnav a, #megamenu a, #mtnav li.level0 a{
+        font-size: 100%;
+    }
+    #mtnav li.level0 ul li a{ font-size: 79% }
+
+    ul.nav-accordion li a{ font-size: 80% }
+
+    .productslist-container .item{ width: 232px !important; }
+
+    .col3-layout .productslist-container .item{ width: 227px !important; }
+
+    .col3-layout .item .product-addto .wishlist,
+    .col3-layout .item .product-addto .compare{ width: 100% }
+
+    .item .product-addto a{ font-size: 71% }
+
+    .item .product-info .price-box .special-price{ float: left }
+
+    .mt-footer-static h3, .mt-footer-static .block-title strong{
+        font-size: 139%;
+        line-height: 35px;
+    }
+    .right-static .social-media .social-title h3{ font-size: 222%; line-height: 36px }
+
+    .block-title strong{ font-size: 178%; line-height: 36px }
+    .block.block-nav .block-content{ padding-left: 10px }
+
+    .toolbar label{ font-size: 80% }
+    .limiter .sort-by-bg{ width: 67% }
+    .toolbar label{ padding: 0 8px }
+
+    .mt-thumbnail-slider.count-4, .mt-thumbnail-slider.count-5, .mt-thumbnail-slider.count-multi{ max-width: 217px !important; }
+
+    .main_top .static-item{ min-height: 234px }
+    .main_top .static-item .icon{ margin-top: 15px }
+
+    .product-home-right .actions .addtocart{ width: 100%; margin-bottom: 10px }
+    button.btn-checkout span{ padding: 0 20px }
+}
+
+/*Ipad Portrait*/	
+@media (min-width: 768px) and (max-width: 991px) {
+	.mt_productslist .actions .addtocart, .category-products .actions .addtocart{ width:100%; margin-bottom: 10px }
+    .header .form-language .sbHolder, .header .select-header .currency .sbHolder{
+        font-size: 80%;
+        padding: 23px 6px 19px 5px;
+        width: 102px;
+    }
+    .header .form-language .sbToggle, .header .select-header .currency .sbToggle{
+        right: 10px;
+    }
+    .header .select-header .currency .sbOptions a{
+        padding-left: 5px;
+    }
+    .form-language .sbOptions li{ padding-left: 6px }
+    .header .select-header .currency{ margin-bottom: 5px }
+    .header .links li{ margin-right: 4px }
+    .header .links li a{
+        width: 82px;
+        height: 120px;
+    }
+    .header .logo{
+        max-width: 100%;
+    }
+    .header .links li a span.text-link{ font-size: 80% }
+    .header .top-search form .form-search{ width: 145px }
+    .header .top-search form .form-search input.input-text{ width: 110px }
+    #mtnav a, #megamenu a, #mtnav li.level0 a{
+        font-size: 100%;
+    }
+    .mt-main-menu #mtnav a{ padding: 0 8px }
+    .mt-main-menu #mtnav li.level0 ul li a{ font-size: 79% }
+    .mt-main-menu #mtnav li.level0 ul li a span.title_group{ font-size: 90% }
+
+    .block-content  ul.nav-accordion ul li{ margin-left: 10px }
+    .block-content ul.nav-accordion li a{ padding-left: 10px; height: 30px; font-size: 75% }
+
+    .block-content ul.nav-accordion li span.collapse,
+    .block-content ul.nav-accordion li span.expand{ left: -6px }
+    .block.block-nav .block-content li.item{ padding-left: 0 }
+
+    .productslist-container .item{ width: 266px !important; }
+    .col3-layout .productslist-container .item{ width: 345px !important; }
+
+    .col1-layout .productslist-container .item{ width: 360px !important; }
+
+    .item .product-addto a{ font-size: 71% }
+
+    .item .product-info .price-box .special-price{ float: left }
+
+    .mt-footer-static h3, .mt-footer-static .block-title strong{
+        font-size: 94%;
+        line-height: 35px;
+    }
+    .right-static .social-media .social-title h3{ font-size: 140%; line-height: 36px }
+
+    .block-title strong{ font-size: 98%; line-height: 36px }
+
+    .block.block-nav .block-content{ padding-left: 10px }
+
+    .block-left-demo .block-title strong{ font-size: 150%; }
+
+    .pager .sort-by, .pager .limiter, .toolbar .sorter{ padding: 0 15px; float: left; clear: both; margin-top: 5px }
+    .pager .sort-by{ width: 44% }
+    .pager .limiter{ width: 51% }
+    .toolbar .pager{ padding-bottom: 0 }
+    .products-grid .item .product-addto .wishlist, .products-grid .item .product-addto .compare{
+        width: 100%;
+    }
+    .products-grid .addtocart.pull-right{ float: none !important; }
+    .products-grid .mt-actions{ float: left; margin-top: 10px }
+    .block-nav .block-title strong {
+        background-position: 5px -721px;
+        padding-left: 44px;
+    }
+    ul.nav-accordion li span.collapse, ul.nav-accordion li span.expand{ left: 0 }
+    ul.nav-accordion ul li{ margin-left: 10px }
+    .box-account .data-table th,
+    .box-account .data-table td{
+        padding: 6px;
+    }
+    .block-account .block-content li{ font-size: 80% }
+    .cart .crosssell .product-details{ width: 100%; clear: both }
+
+    .main_top .static-item{ min-height: 179px }
+    .main_top .static-item a{ font-size: 130% }
+    .main_top .static-item .icon{ width: 100px; height: 100px; margin-top: 10px }
+    .main_top .static-item .icon.icon-company{ background-position: -21px -1666px }
+    .main_top .static-item .icon.icon-support{ background-position: -22px -1809px }
+    .main_top .static-item .icon.icon-delivery{ background-position: -17px -1952px }
+    .main_top .static-item .icon.icon-service{ background-position: -22px -2096px }
+    .product-home-right .flex-direction-nav a{ opacity: 0 }
+    .product-home-right:hover .flex-direction-nav a{ opacity: 1 }
+    .product-home-right .actions .addtocart{ width: 100%; margin-bottom: 10px }
+    .product-view .product-essential .block-product-page h3, .block-product-page h3{ font-size: 215% }
+}
+
+/* Iphone 5 landscape */
+@media(max-width:767px) {
+	.main_top .static-item img{ width:100% }
+    .footer-static-content{ display: none }
+    .block-subscribe{ padding-bottom: 0 }
+    .mt-footer-static .block-title strong{ margin-bottom: 0 }
+    .block-subscribe .block-content{ margin-top: 21px }
+    .mt_productslist .item{ width: 98% !important; margin: 0 auto 30px !important; }
+    .mt-footer-static .slide{ margin-bottom: 30px; }
+    .header{ text-align: center; padding-bottom: 60px }
+    .productslist-container .item{ width: 50% !important; }
+
+    .header .logo, .header a.logo{ text-align: center; }
+    .header a.logo{ margin: 0 0 30px 0; display: inline-block }
+    .header .links li{ margin-right: 4px }
+    .header .select-header .currency .sbOptions a{ padding-left: 10px }
+    .form-language .sbOptions li{ padding-left: 10px }
+    .header .form-language .sbToggle, .header .select-header .currency .sbToggle{ right: 8px }
+    .header .form-language .sbHolder, .header .select-header .currency .sbHolder{ padding: 19px 15px 18px 10px; width: 129px }
+    .header .links li a{ width: 89px }
+
+    .pager .sort-by, .pager .limiter, .toolbar .sorter{ padding: 0 15px; float: left; clear: both; margin-top: 5px }
+    .pager .sort-by{ width: 245px }
+    .pager .limiter{ width: 257px }
+    .toolbar .pager{ padding-bottom: 0 }
+
+    .header .mt-show-right{ bottom: 11px;
+        margin-right: -154px;
+        right: 50% }
+    .block-account .block-content li{ font-size: 80% }
+    .cart .crosssell .product-details{ width: 100%; float: left; margin-left: 0 }
+    .cart .cart-table .btn-continue,
+    .cart .cart-table .btn-update,
+    .cart .cart-table .empty_cart_button,
+    .my-wishlist .buttons-set button.btn-share,
+    .my-wishlist .buttons-set button.btn-add,
+    .my-wishlist .buttons-set button.btn-update{ float: none; display: inline-block }
+
+    .my-wishlist .buttons-set{ text-align: center }
+
+    #wishlist-table.data-table tr.first td,
+    #wishlist-table.data-table tr.first th,
+    #wishlist-table.data-table tbody td{
+        border-bottom: none;
+    }
+    #wishlist-table tbody tr{ border-bottom: 1px solid #E4E4E4 }
+    .footer-container .footer .footer-social-static{ float: left; margin-top: 20px }
+
+    /*Table*/
+    table {
+    width: 100%
+    }
+    table thead tr.first{ display: none }
+    table#product-review-table, table#shopping-cart-table, table#checkout-review-table, table#my-orders-table {
+    outline: none;
+    border:0;
+    }
+    #wishlist-table .add-to-cart-alt{ display: inline-block }
+    table#wishlist-table td, table#wishlist-table th table#product-review-table td, table#product-review-table th, table#shopping-cart-table td, table#shopping-cart-table th, table#checkout-review-table td, table#checkout-review-table th, table#my-orders-table th, table#my-orders-table td {
+    display:block;
+    float:none;
+    text-align: center;
+    }
+    .table-bordered th, .table-bordered td {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    }
+    table#product-review-table th, table#product-review-table td {
+    border-right: 0;
+    }
+    table#product-review-table th.last, table#product-review-table td.last {
+    border-right: 1px solid #DDDDDD;
+    }
+    table#product-review-table tr.last th, table#product-review-table tr.last td, table#checkout-review-table tr.last td.last, table#checkout-review-table tr.last th.last, table#my-orders-table tr.last td.last {
+    border-bottom: 1px solid #DDDDDD;
+    }
+    .cart .cart-table td .product-image img{ float: none }
+    .btn-remove2{ display: inline-block }
+
+    .main_top .static-item{ width: 100% }
+
+    .header-left{ display: inline-block }
+
+    .main-top .slide, .main-bottom .slide{ margin-bottom: 10px }
+
+    .main-top .slide img, .main-bottom .slide img{ width: 100%; }
+}
+
+/* Menu */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .quick-access-inner{ float: none !important; margin: 0 auto; width: 594px; }
+}
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+    .header .links li a{ width: 128px }
+    .header .links li{ margin: 0 10px 10px 0 }
+    .quick-access-inner{ display: inline-block; float: none !important; margin: 0 auto; position: relative; width: 414px; }
+    .select-header{ bottom: 10px; position: absolute; right: 10px; }
+}
+
+@media(max-width:480px) {
+    .mt-show-right .mt-top-cart, .mt-show-right .top-search{ float: none !important; }
+    .mt-show-right .mt-top-cart{ margin-top: 10px }
+    .header{ padding-bottom: 87px }
+    .header .links li a{ width: 128px }
+    .header .links li{ margin: 0 10px 10px 0 }
+    .quick-access-inner{ display: inline-block; float: none !important; margin: 0 auto; position: relative; width: 276px; }
+    .select-header{ bottom: 10px; position: absolute; right: 10px; }
+    .header .top-search form .form-search{ width: 267px }
+    .header .top-search form .form-search input.input-text{ width: 232px }
+    .page-title h1, .page-title h2{ font-size: 185% }
+    .cart .page-title{ text-align: center }
+    .cart .page-title h1{ float: none !important; }
+    .cart .title-buttons .checkout-types{ float: none; display: inline-block; margin-top: 10px }
+    .header .select-header .currency .sbOptions a{ padding-left: 10px }
+    .form-language .sbOptions li{ padding-left: 12px }
+    .header .mt-show-right{ margin-right: -129px }
+    .productslist-container .item{ width: 100% !important; }
+    .ajaxcart, .mtajaxcompare{ right: -83px }
+    #review-form .data-table th, #review-form .data-table td{ padding: 7px }
+    .product-view .product-collateral .product-tabs li{ float: none; margin: 0 0px 2px 0 }
+}
+
+/* Iphone 4 landscape */
+@media(max-width:320px) {
+    .header .logo{ width: 78% }
+}
+

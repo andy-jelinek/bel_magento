@@ -1,0 +1,107 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php
+$theme = $this->helper('mtbrave');
+$compareHeader = $theme->getCfg('header/compare');
+$mobileCart = $theme->getCfg('header/hide_on_mobile');
+$toplink = $theme->getCfg('magento_blocks/top_links');
+if($mobileCart){
+    $class = 'hidden-xs';
+}
+?>
+
+<header class="header-container">
+    <div class="container">
+        <div class="header">
+            <div class="row">
+                <div class="header-left col-lg-3 col-md-3 col-sm-3">
+                    <div class="navbar visible-xs">
+                        <div class="navbar navbar-inverse">
+                            <div class="navbar-header">
+                                <div class="navbar-toggle" type="button" data-toggle="collapse">
+                                    <span class="sr-only"><?php echo $this->__('Navigation');?></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php if ($this->getIsHomePage()):?>
+                        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+                    <?php else:?>
+                        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                    <?php endif?>
+                </div>
+                <div class="quick-access col-lg-9 col-md-9 col-sm-9">
+                    <div class="quick-access-inner pull-right">
+                        <!--<p class="welcome-msg"><?php echo $this->getWelcome() ?> <?php echo $this->getAdditionalHtml() ?></p>-->
+                        <?php if($toplink):?>
+                        <?php echo $this->getChildHtml('topLinks') ?>
+                        <?php endif;?>
+                        <div class="select-header pull-left">
+                            <?php echo $this->getChildHtml('currency') ?>
+                            <?php echo $this->getChildHtml('store_language') ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-show-right">
+                    <div class="top-search pull-left">
+                        <?php echo $this->getChildHtml('topSearch') ?>
+                    </div>
+                    <!--<?php if($compareHeader):?>
+                    <div class="top-compare pull-left">
+                        <div class="mt-maincompare">
+                            <?php $_helper = $this->helper('catalog/product_compare'); ?>
+                            <span class="mt-icon-compareajax visible-md visible-lg"><?php echo $this->__('Compare') ?></span>
+                            <a href="<?php echo $_helper->getListUrl() ?>" target="_blank" class="visible-xs visible-sm clearfix">
+                                <span class="mt-icon-compareajax"></span>
+                                <span class="mt-compare-label"><?php echo $this->__('Compare') ?></span>
+                            </a>
+
+                            <div class="block-top-compare">
+                                <?php echo $this->getChildHtml('compareajax') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endif;?>-->
+                    <div class="mt-top-cart pull-left <?php echo $class;?>">
+                        <div class="mt-maincart">
+                            <?php echo $this->getChildHtml('ajaxcart'); ?>
+                        </div>
+                    </div>
+                </div>
+
+                <?php echo $this->getChildHtml('topContainer'); ?>
+            </div>
+        </div>
+    </div>
+    <?php echo $this->getChildHtml('topMenu') ?>
+</header>

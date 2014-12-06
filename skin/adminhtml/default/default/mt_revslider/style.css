@@ -1,0 +1,209 @@
+.slide_layers{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aaa #c8c8c8 #c8c8c8 #aaa;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    background-size: cover;
+    margin-top: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.slide_layers.trans_bg{
+    background-image: url(trans_tile2.png) !important;
+    background-repeat: repeat !important;
+    background-size: cover;
+    background-size: auto !important;
+}
+.slide_layer.hide{
+    display: none;
+}
+.slide_layer .slide_layer_video{
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+    color: #ccc;
+    text-align: center;
+}
+.form-list td.value textarea{
+    height: 8em;
+}
+.slide_layer{
+    cursor: move;
+    white-space: nowrap;
+    position: absolute;
+}
+.slide_layer.selected{
+    box-shadow: 0 0 8px #66afe9;
+    -webkit-box-shadow: 0 0 8px #66afe9;
+    -moz-box-shadow: 0 0 8px #66afe9;
+}
+.fieldset.no-spacing{
+    border: 0;
+    padding: 0;
+    background: none;
+}
+#right_fieldset{
+    float: right;
+    width: 49%;
+}
+#left_fieldset{
+    float: left;
+    width: 50%;
+}
+#listLayers{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#listLayers .validation-advice{
+    display: none;
+}
+#listLayers .validation-failed{
+    background-color: red;
+}
+#listLayers .item.selected{
+    background: #ed6502 url(../images/btn_bg.gif) repeat-x;
+    background-size: 100% 100%;
+    border-color: #ed6502;
+}
+#listLayers .item{
+    border: 1px solid #999;
+    background: #d7e5ef;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    margin-bottom: 3px;
+    cursor: move;
+}
+#listLayers .item .name{
+    overflow: hidden;
+    width: 50%;
+    white-space: nowrap;
+    float: left;
+}
+#listLayers .item .right{
+    float: right;
+}
+#listLayers .item.hide{
+    background: #ccc;
+}
+#listLayers .item .time{
+    width: 50px;
+    margin: 0 3px 2px 0;
+}
+span.eye{
+    display: inline-block;
+    width: 19px;
+    height: 13px;
+    background: url(../images/btn_show-hide_icon.gif) no-repeat;
+    margin: 2px 2px 0 0;
+}
+.selected .arrow{
+    visibility: hidden;
+}
+span.arrow{
+    display: inline-block;
+    width: 10px;
+    height: 13px;
+    background: url(../images/arrow_sort_move.gif) no-repeat center center;
+}
+#timeline{
+    background: url(timeline.png) repeat-x;
+    height: 15px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    position: relative;
+}
+.handle{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    cursor: move;
+    margin: -2px 0 0 0;
+    z-index: 1;
+}
+.handle.start{
+    background-color: #008000;
+}
+.handle.end{
+    background-color: #ED6502;
+}
+#timeline .span{
+    display: inline-block;
+    height: 5px;
+    background: #3C939A;
+    position: absolute;
+    top: 3px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+#timeline .min{
+    float: left;
+    font-size: 10px;
+    margin-top: 15px;
+    display: inline-block;
+}
+#timeline .max{
+    float: right;
+    font-size: 10px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.control{
+    margin-bottom: 10px;
+}
+.control p{
+    font-weight: bold;
+}
+.control div{
+    margin-bottom: 10px;
+}
+.control .align span{
+    width: 75px;
+    display: inline-block;
+}
+.control label{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.control label input{
+    margin-left: 5px;
+}
+.half{
+    width: 49%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.video_title{
+    font-weight: bold;
+}
+#videoView{
+    text-align: center;
+}
+#videoView p{
+
+}
+input.input-small{
+    width: 60px;
+}
+input.input-wide{
+    width: 70%;
+}

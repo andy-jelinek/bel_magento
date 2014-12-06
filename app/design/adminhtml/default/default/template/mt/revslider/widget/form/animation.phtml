@@ -1,0 +1,27 @@
+<?php
+/**
+ * @category    MT
+ * @package     MT_RevSlider
+ * @copyright   Copyright (C) 2008-2013 YesTheme.com. All Rights Reserved.
+ * @license     GNU General Public License version 2 or later
+ * @author      YesTheme.com
+ * @email       support@yestheme.com
+ */
+?>
+<tr>
+    <td class="value" style="" colspan="2">
+        <div>
+        <div id="layer_animation_preview">
+            <div id="animation_preview"><?php echo Mage::helper('revslider')->__('LAYER SAMPLE')?></div>
+            <div id="animation_control">
+                <span class="ico on" title="<?php echo Mage::helper('revslider')->__('Toogle autorun')?>" onclick="return revLayer.toggleAutotun()"></span>
+            </div>
+        </div>
+        <?php if ($note = $this->getElement()->getNote()):?>
+            <p class="note" id="note_delay" style="width: 100%">
+                <span><?php echo $note?></span>
+            </p>
+        <?php endif?>
+        </div>
+    </td>
+</tr>

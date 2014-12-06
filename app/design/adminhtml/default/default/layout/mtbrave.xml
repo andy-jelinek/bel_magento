@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category     MT
+ * @package      MT_Themes
+ *
+ * @copyright    Copyright (C) 2008-2013 YesTheme.com. All Rights Reserved.
+ * @license      GNU General Public License version 2 or later;
+ * @author       YesTheme.com
+ * @email        support@yestheme.com
+ *
+ */
+-->
+<layout>
+    <mtbrave_adminhtml_support_index>
+        <reference name="content">
+            <block type="mtbrave/adminhtml_support" name="adminhtml_support"/>
+        </reference>
+    </mtbrave_adminhtml_support_index>
+</layout>

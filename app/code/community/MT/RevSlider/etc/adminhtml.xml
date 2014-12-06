@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+@category    MT
+@package     MT_RevSlider
+@copyright   Copyright (C) 2008-2013 YesTheme.com. All Rights Reserved.
+@license     GNU General Public License version 2 or later
+@author      YesTheme.com
+@email       support@yestheme.com
+-->
+<config>
+    <menu>
+        <mt>
+            <title>MT</title>
+            <sort_order>71</sort_order>
+            <children>
+                <slider>
+                    <title>MT Revolution Slider</title>
+                    <children>
+                        <manager>
+                            <title>Manage Slider</title>
+                            <action>revslideradmin/slider/index</action>
+                        </manager>
+                        <import>
+                            <title>Import</title>
+                            <action>revslideradmin/slider/import</action>
+                        </import>
+                    </children>
+                    <sort_order>10</sort_order>
+                </slider>
+            </children>
+        </mt>
+    </menu>
+</config>

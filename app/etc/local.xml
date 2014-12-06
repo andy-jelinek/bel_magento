@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Fri, 05 Dec 2014 15:40:33 +0000]]></date>
+            <date><![CDATA[Sat, 06 Dec 2014 05:42:01 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[8ec42ccec02a27873910eec9f29f5556]]></key>
+            <key><![CDATA[86e028e9c7094da760686526909eed08]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -42,8 +42,8 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[root]]></password>
-                    <dbname><![CDATA[magento_db]]></dbname>
+                    <password><![CDATA[]]></password>
+                    <dbname><![CDATA[bmagento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
